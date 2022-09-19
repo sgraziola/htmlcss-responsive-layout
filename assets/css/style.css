@@ -129,6 +129,11 @@ section{
     flex-wrap: wrap;
 }
 
+.planning{
+    background-color: var(--primary);
+    padding: 2rem 0;
+}
+
 /* #endregion Main */
 
 /* #region Footer*/
@@ -150,6 +155,8 @@ section{
 
 /* #region Responsive Desktop*/
 @media screen and (min-width: 1200px) {
-    
+    .col_lg_6{
+        width: 50%;
+    }
 }
 /* #endregion Responsive Desktop */
