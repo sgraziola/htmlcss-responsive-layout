@@ -4,6 +4,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --primary: #9792E4;
+    --secondary: #0084FD;
+    --secondary_lighter: #B5DDFF;
+    --accent: #FDC15F;
+    --dark: #333333;
+    --light: #FFFFFF;
+}
+
 /* #endregion Common */
 
 /* #region Debug */
