@@ -94,6 +94,9 @@ section {
     display: flex;
 }
 
+.column_rev{
+    flex-direction: column-reverse;
+}
 /* #endregion Utilities */
 
 /* #region Debug */
@@ -258,20 +261,32 @@ nav {
 .planning p{
     font-size: 18px;
     line-height: 25px;
+    padding: 2rem 0;
 }
 
 .planning_card{
     background-color: var(--light);
     border-radius: 3rem;
     text-align: center;
+    padding-top: 2rem;
+}
+
+.planning_card h2{
+    margin-top: 2rem;
 }
 
 .planning_card .arrow{
+    display: inline-block;
     text-decoration: none;
     background-color: var(--primary);
     color: var(--darker);
     border-radius: 50%;
-    padding: 3rem;
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+.planning_card p{
+    padding: 2rem;
 }
 .testimonial {
     margin: 2rem 0;
@@ -363,6 +378,13 @@ footer {
 
     .demo_app {
         flex-wrap: nowrap;
+    }
+
+    .planning_card img{
+        max-width: 60%;
+    }
+    .planning_text h2 {
+        font-size: 2rem;
     }
 }
 
