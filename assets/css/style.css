@@ -108,6 +108,12 @@ section{
     background-color: lightgray;
 }
 
+.debug .heading,
+.debug .testimonial{
+    height: 200px;
+    background-color: aquamarine;
+    border: 1px solid blue;
+}
 /* #endregion Debug */
 
 /* #region Header */
@@ -129,9 +135,14 @@ section{
     flex-wrap: wrap;
 }
 
-.planning{
+.planning, 
+.benefits{
     background-color: var(--primary);
     padding: 2rem 0;
+}
+
+.testimonial{
+    margin: 2rem 0;
 }
 
 /* #endregion Main */
@@ -149,7 +160,11 @@ section{
     .col_md_4{
         width: calc(100% / 12 * 4);
     }
-    
+
+    .col_md_6{
+        width: 50%;
+    }
+
 }
 /* #endregion Responsive Tablet */
 
@@ -158,5 +173,10 @@ section{
     .col_lg_6{
         width: 50%;
     }
+
+    .col_lg_4{
+        width: calc(100% / 12 * 4);
+    }
+    
 }
 /* #endregion Responsive Desktop */
