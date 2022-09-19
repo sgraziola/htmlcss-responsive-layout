@@ -118,6 +118,10 @@ section{
 .debug .call_to_action{
     height: 400px;
 }
+
+.debug footer{
+    height: 300px;
+}
 /* #endregion Debug */
 
 /* #region Header */
@@ -153,7 +157,9 @@ section{
 /* #endregion Main */
 
 /* #region Footer*/
-
+footer{
+    background-color: var(--dark);
+}
 /* #endregion Footer */
 
 /* #region Responsive Tablet*/
@@ -162,12 +168,20 @@ section{
         width: calc(100% / 12 * 8);
     }
 
-    .col_md_4{
-        width: calc(100% / 12 * 4);
+    .col_md_7{
+        width: calc(100% / 12 * 7);
     }
 
     .col_md_6{
         width: 50%;
+    }
+
+    .col_md_5{
+        width: calc(100% / 12 * 5);
+    }
+    
+    .col_md_4{
+        width: calc(100% / 12 * 4);
     }
 
 }
@@ -175,6 +189,11 @@ section{
 
 /* #region Responsive Desktop*/
 @media screen and (min-width: 1200px) {
+    
+    .col_lg_8{
+            width: calc(100% / 12 * 8);
+        }
+        
     .col_lg_6{
         width: 50%;
     }
@@ -182,6 +201,5 @@ section{
     .col_lg_4{
         width: calc(100% / 12 * 4);
     }
-    
 }
 /* #endregion Responsive Desktop */
