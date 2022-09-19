@@ -241,9 +241,38 @@ nav {
 .benefits,
 .call_to_action {
     background-color: var(--primary);
-    padding: 2rem 0;
+    padding: 4rem 0;
 }
 
+.planning_text{
+    margin: 2rem 0;
+    color: var(--light);
+}
+
+.planning_text h2{
+    font-size: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.planning p{
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.planning_card{
+    background-color: var(--light);
+    border-radius: 3rem;
+    text-align: center;
+}
+
+.planning_card .arrow{
+    text-decoration: none;
+    background-color: var(--primary);
+    color: var(--darker);
+    border-radius: 50%;
+    padding: 3rem;
+}
 .testimonial {
     margin: 2rem 0;
 }
