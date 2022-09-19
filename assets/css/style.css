@@ -14,7 +14,57 @@
     --light: #FFFFFF;
 }
 
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+img{
+    max-width: 100%;
+}
+
 /* #endregion Common */
 
+/* #region Utilities */
+.d_flex{
+    display: flex;
+}
+
+/* #endregion Utilities */
+
 /* #region Debug */
+.debug .logo, 
+.debug .menu {
+    height: 80px;
+    border: 1px solid;
+}
+
+.debug .logo{
+    width: 150px;
+}
+.debug .menu{
+    width: 350px;
+}
+
 /* #endregion Debug */
+
+/* #region Header */
+    header{
+        background-color: var(--secondary);
+    }
+    header .container{
+        padding: 1rem 0;
+    }
+    
+    nav{
+        justify-content: space-between;
+    }
+/* #endregion Header */
+
+/* #region Main */
+
+/* #endregion Main */
+
+/* #region Footer*/
+
+/* #endregion Footer */
