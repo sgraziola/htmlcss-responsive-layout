@@ -114,6 +114,10 @@ section{
     background-color: aquamarine;
     border: 1px solid blue;
 }
+
+.debug .call_to_action{
+    height: 400px;
+}
 /* #endregion Debug */
 
 /* #region Header */
@@ -136,7 +140,8 @@ section{
 }
 
 .planning, 
-.benefits{
+.benefits,
+.call_to_action {
     background-color: var(--primary);
     padding: 2rem 0;
 }
