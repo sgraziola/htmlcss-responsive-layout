@@ -468,6 +468,10 @@ nav {
     font-size: 14px;
 }
 
+.call_to_action{
+    margin-bottom: 0;
+}
+
 .started{
     text-decoration: none;
     background-color: var(--light);
@@ -488,6 +492,20 @@ nav {
 /* #region Footer*/
 footer {
     background-color: var(--dark);
+    color: var(--light);
+    padding: 3rem 2rem;
+}
+
+.top_foot{
+    padding-bottom: 3rem;
+}
+.top_foot,
+.bot_foot{
+    text-align: center;
+}
+
+.bot_foot a{
+    color: var(--primary);
 }
 
 /* #endregion Footer */
@@ -573,6 +591,9 @@ footer {
 
     .call_to_action .container {
         width: 432px;
+    }
+    footer .container{
+        width: 408px;
     }
 }
 
