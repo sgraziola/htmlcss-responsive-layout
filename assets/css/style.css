@@ -375,14 +375,18 @@ nav {
     margin-top: 2rem;
 }
 
-.benefits_btn {
+.benefits_btn,
+.about_btn{
     background-color: var(--primary);
     border-radius: 1.5rem;
     color: var(--light);
-    padding: 0.5rem 3rem;
     text-decoration: none;
     display: inline-block;
+}
+
+.benefits_btn{
     font-weight: bold;
+    padding: 0.5rem 3rem;
     letter-spacing: 4px;
 }
 
@@ -409,6 +413,25 @@ nav {
     margin-top: 1rem;
 }
 
+.avatar{
+    position: relative;
+}
+
+.avatar .fa-quote-left{
+    position: absolute;
+    top: 0;    
+    left: 145px;
+    font-size: 65px;
+    color: var(--primary);
+}
+
+.about_btn{
+    padding: 0.5rem 1rem;
+}
+
+.about_btn i{
+    padding-right: 10px;
+}
 /* #endregion Main */
 
 /* #region Footer*/
@@ -553,6 +576,13 @@ footer {
     .avatar{
         margin-right: -4rem;
     }
+    .about .container{
+        width: 960px;
+    }
+    .about_text {
+        margin-right: 3rem;
+    }
+
 }
 
 /* #endregion Responsive Desktop */
