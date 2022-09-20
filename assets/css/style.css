@@ -465,8 +465,24 @@ nav {
 
 .call_to_action p {
     line-height: 25px;
+    font-size: 14px;
 }
 
+.started{
+    text-decoration: none;
+    background-color: var(--light);
+    border-radius: 3rem;
+    color: var(--primary);
+    padding: 1rem 3rem;
+    margin: 2rem 0;
+    display: inline-block;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+.copyright a{
+    color: var(--light);
+}
 /* #endregion Main */
 
 /* #region Footer*/
@@ -520,8 +536,15 @@ footer {
 
     .info_text {
         margin-top: 2rem;
+        padding: 1.5rem;
+    }
+    .info_text h2 {
+       font-size: 20px;
     }
 
+    .card p{
+        font-size: 15px;
+    }
     .card .primary_btn {
         width: 50%;
     }
@@ -546,6 +569,10 @@ footer {
 
     .testimonial img {
         width: 100%;
+    }
+
+    .call_to_action .container {
+        width: 432px;
     }
 }
 
@@ -624,6 +651,8 @@ footer {
     .about_text {
         margin-right: 3rem;
     }
+
+    
 }
 
 /* #endregion Responsive Desktop */
