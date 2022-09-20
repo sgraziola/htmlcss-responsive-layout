@@ -239,6 +239,7 @@ nav {
 
 .info_text h2 {
     margin-top: 2rem;
+    font-size: 23px;
 }
 
 .info_text {
@@ -476,8 +477,9 @@ footer {
 /* #endregion Footer */
 
 /* #region Responsive Tablet*/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 481px) {
     .container {
+        max-width: 90%;
         width: 720px;
     }
 
@@ -550,7 +552,7 @@ footer {
 /* #endregion Responsive Tablet */
 
 /* #region Responsive Desktop*/
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 769px) {
 
     .container {
         width: 1140px;
